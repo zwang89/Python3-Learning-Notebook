@@ -90,20 +90,20 @@ out_file.write(indata)
 * In Python programming, you sometimes needs to define your own fuction to finish a task. The following check list is a wonderful summary from "Learn Python 3 the Hard Way";
 
 > 1. Did you start your function definition with def?
-2. Does our function name have only characters?
-3. Did you put an open parenthesis right after a function name?
-4. Did you put your arguments after the parenthesis separated by commas?
-5. Did you make each argument unique (meaning no duplicated names)?
-6. Did you put a close parenthesis and a colon after the arguments?
-7. Did you indent all lines of code you want in the function four spaces? **no more, no less!**
-8. Did you "end" your function by goinbg back to write with no ident?
+> 2. Does our function name have only characters?
+> 3. Did you put an open parenthesis right after a function name?
+> 4. Did you put your arguments after the parenthesis separated by commas?
+> 5. Did you make each argument unique (meaning no duplicated names)?
+> 6. Did you put a close parenthesis and a colon after the arguments?
+> 7. Did you indent all lines of code you want in the function four spaces? **no more, no less!**
+> 8. Did you "end" your function by goinbg back to write with no ident?
 
 * The author also provides reader with recall check list:
 
 > 1. did you call/use/run this function by typing its name?
-2. Did you put the ( character after the name to run it?
-3. Did you put the values you want into the parentheses separated by commas?
-4. Did you end the function call with a ) character?
+> 2. Did you put the ( character after the name to run it?
+> 3. Did you put the values you want into the parentheses separated by commas?
+> 4. Did you end the function call with a ) character?
 
 * **return** in a function to print out/return the value that you want to print out
 ```Python
