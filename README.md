@@ -123,3 +123,24 @@ print_a_line(current_line, current_file)
 current_line += 1
 print_a_line(current_line, current_file)
 ```
+
+#### 2) How to change a matrix in to a list?
+* sometimes, we need to change a matrix to a flat, one row list. Here is the code and how.
+```Python
+myMatrix = [[1, 2, 3, 4],
+            [5, 6, 7],
+            [8, 9, 10]]
+mylist_3 = []
+# change the matrix to a list
+#list comprehension, first read each subrow in myMatrix, then read each element in subrow.
+flat_list = [i for sub in myMatrix for i in sub]
+```
+
+#### 3) How to find all numbers in a **mixed** list?
+* Situation: given a list that contains numbers and strings, how can we generate a list that only contains the numbers/list/other data type?
+
+  In this situation, we need to use **isinstance(var, type)** function.
+```Python
+# for list comprehension, if there are multiple conditions, just add another if in the function. 
+is_num = [i for i in flat_list_2 if isinstance(i, int) if i % 2 == 0]
+```
