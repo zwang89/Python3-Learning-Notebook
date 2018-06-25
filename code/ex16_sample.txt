@@ -1,0 +1,3 @@
+What is this file?
+This is my first written file directly through Terminal
+love this python
