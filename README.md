@@ -141,6 +141,29 @@ flat_list = [i for sub in myMatrix for i in sub]
 
   In this situation, we need to use **isinstance(var, type)** function.
 ```Python
-# for list comprehension, if there are multiple conditions, just add another if in the function. 
+# for list comprehension, if there are multiple conditions, just add another if in the function.
 is_num = [i for i in flat_list_2 if isinstance(i, int) if i % 2 == 0]
+```
+
+#### 4) Import another .py file and use its function.
+* In some cases, users want to first define all functions in one file and use it latter. Here is how: (see details in ex25.py file)
+
+```Python
+def sort_sentence(sentence):
+    """Takes in a full sentence and returns the sorted words."""
+    words = break_words(sentence)
+    return sort_words(words)
+
+def print_first_and_last(sentence):
+    """print the tifrst and last words of the sentece."""
+    words= break_words(sentece)
+    print_first_word(words)
+    print_last_word(words)
+```
+
+In case you want to use the pre-defined function latter in another file:
+
+```Python
+sorted_mysentence = ex25.sort_sentence(mysentence)
+print(sorted_mysentence)
 ```
