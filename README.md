@@ -167,3 +167,5 @@ In case you want to use the pre-defined function latter in another file:
 sorted_mysentence = ex25.sort_sentence(mysentence)
 print(sorted_mysentence)
 ```
+#### 5) What if multiple elif blocks are true?
+* Python starts at the top and runs the first block that is true, so it will run only the first one. 
