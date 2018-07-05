@@ -168,4 +168,7 @@ sorted_mysentence = ex25.sort_sentence(mysentence)
 print(sorted_mysentence)
 ```
 #### 5) What if multiple elif blocks are true?
-* Python starts at the top and runs the first block that is true, so it will run only the first one. 
+* Python starts at the top and runs the first block that is true, so it will run only the first one.
+
+#### 6) What does **while loop** do?
+* This makes an infinite loop. So, ... be careful!
