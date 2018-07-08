@@ -111,3 +111,31 @@ def divide(a, b):
     print(f"DIVIDING {a} / {b}")
     return a / b
 ```
+
+### 7 Rules for **if-statements**
+* Rules for if-statements from the book
+> 1. every if-statement must have an else
+> 2. If this else should never run because it does not make sense, you must use a die function in the else that print out an error message and dies.
+> 3. Never nest if-statements more than two deep alwasy try to do them one deep.
+> 4. Treat if-statement like paragraphs where if -else-else grouping is like a set of sentences. Put blank lines before and after if-statements
+> 5. Your Boclean tests should be simple. If they are complex, move their cal earlier and use a good name for the variables
+
+### 8 Rules for loops
+* from the book, there are two rules in should be applied in loops
+> 1. use a while loop only to loop for every and that means probably never.
+> 2. use a for-loop for all other kinds of looping, especially if there is a fixed or limited number of things to loop over.
+
+### 9 Rules for Debugging
+> 1. Best way to debug a program is to use print to print out the values of variables at points in the program to see where they go wrong.
+> 2. Make sure parts of programs work as you work on them. Do not write massive files of code before you ry to run them. **Code a little, run a little, fix a little.**
+
+### 10 Ultimate Guide to Read
+* the best way from the book mentioned that you should print out the code your want to read, and then follow the following steps:
+> 1. Functions and what they do?
+> 2. Where each variable is first given a value.
+> 3. Any variables with the same names in different parts of the program. They may be trouble and confuse you later.
+> 4. Any if statements without else clauses. Are they right?
+> 5. Any while loops may be not end.  
+> 6. Any parts of code that you cannot understand.
+
+* Then, tried to write comments as you go. Explain functions that you do not understand. Make comments is always good practice. 
